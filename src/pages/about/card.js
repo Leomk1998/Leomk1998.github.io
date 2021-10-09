@@ -47,6 +47,14 @@ const Card = ({ image, descriptions, link, id }) => (
       />
     </ImageWrapper>
     <CardContent>
+      <Typography
+        textAlign="center"
+        fontSize="0.85rem"
+        fontWeight="bold"
+        key={image.alt}
+      >
+        {image.alt}
+      </Typography>
       {descriptions.map((description) => (
         <Typography textAlign="center" fontSize="0.85rem" key={description}>
           {description}

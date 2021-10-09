@@ -58,8 +58,8 @@ const About = ({ location: { pathname } }) => {
       <Container>
         <Wrapper>
           <Title text="Mi Trabajo" fontSize="1.75rem" fontWeight={700} />
-          <Typography textAlign="center">
-            Aquí hay algunos proyectos en los que he trabajado:
+          <Typography textAlign="center" fontSize="1.75rem">
+            Algunos proyectos en los que he trabajado:
           </Typography>
           <ListWrapper maxWidth="70rem">
             {projects.map((project) => (
@@ -77,7 +77,7 @@ const About = ({ location: { pathname } }) => {
         <Wrapper>
           <TextWrapper>
             <Typography fontSize="1.75rem" fontWeight={700} textAlign="center">
-              Algunas empresas con las que he colaborado:
+              Algunas entidades con las que he colaborado:
             </Typography>
           </TextWrapper>
           <ListWrapper maxWidth="50rem" justifyContent="space-evenly">

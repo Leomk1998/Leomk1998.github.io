@@ -79,19 +79,19 @@ const Contact = ({ location: { pathname } }) => {
     formData.append('email', email);
     formData.append('message', message);
 
-    const request = new Request(`${process.env.REACT_APP_REQUEST_URL}`);
+    const request = new Request(
+      `https://getform.io/f/3dbdbe6a-dcad-4298-984a-e2e25d44a222`,
+    );
     const data = {
       method: 'POST',
-      headers: {
-        Accept: 'application/json',
-      },
       body: formData,
     };
 
     fetch(request, data)
       .then(() => {
-        window.location.replace(`${process.env.REACT_APP_BASE_URL}/success`);
+        window.location.replace(`/success`);
       })
+      // eslint-disable-next-line no-console
       .catch((e) => console.error(e));
   };
 

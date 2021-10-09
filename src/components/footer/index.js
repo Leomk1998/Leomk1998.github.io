@@ -95,9 +95,11 @@ const Footer = ({ location }) => {
             fontSize="1.25rem"
             fontWeight={800}
             margin="0"
+            textAlign="center"
           >
             ¿Quieres comenzar un proyecto conmigo?
           </Typography>
+          <br />
           <Link to="/contact">
             <DefaultButton value="Contáctame" minWidth="12.25rem" />
           </Link>
@@ -112,7 +114,7 @@ const Footer = ({ location }) => {
         />
       </ImageWrapper>
       <Typography textAlign="center" color="#FFFFFFB3" fontSize="1.25rem">
-        Living, learning & leveling up one day at a time.
+        No nos echamos los huevos al hombro.
       </Typography>
       <List>
         <a

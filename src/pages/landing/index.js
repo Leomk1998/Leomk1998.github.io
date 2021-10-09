@@ -123,7 +123,12 @@ const LandingPage = ({ location: { pathname } }) => (
           ¿Quién es Leonardo Mendoza?
         </Title>
         <Typography color="white" textAlign="center">
-          Es una buena persona, mejor desarrollador de software.
+          Soy una persona que demuestra responsabilidad y eficiencia en todos
+          los proyectos en los que participa. Me apasiona desarrollar software y
+          superar retos, trato siempre de evidenciarlo con resultados de
+          calidad. Estudié ingeniería en Ciencias Computacionales en la ESPOL.
+          Actualmente tengo 23 años y considero que estoy aún en el inicio de mi
+          carrera profesional.
         </Typography>
       </CenteredWrapper>
     </CenteredContainer>
@@ -168,7 +173,7 @@ const LandingPage = ({ location: { pathname } }) => (
             </TextWrapper>
             <ButtonWrapper>
               <a
-                href={`${process.env.REACT_APP_RESUME_URL}/export?format=pdf`}
+                href="https://drive.google.com/file/d/1UMZ6Uhrsk5sDrLZiurBHNx9Z5gncq11I/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ margin: ' 0 auto' }}

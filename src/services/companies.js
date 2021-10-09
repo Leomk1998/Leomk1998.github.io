@@ -1,31 +1,34 @@
 const companies = [
-  /*
   {
     id: 1,
-    name: 'Horus Smart Control',
-    logo: '/companies/horus-sc.svg',
+    name: 'BioDynamics Tech',
+    logo: '/projects/logo_biodynamics.svg',
   },
   {
     id: 2,
-    name: 'Ela Sustentable',
-    logo: '/companies/ela-sustentable.png',
+    name: 'InnovaSystem',
+    logo: '/companies/logo_innovasystem_cf.jpg',
   },
   {
     id: 3,
-    name: 'Simple Legal',
-    logo: '/companies/simple-legal.jpg',
+    name: 'Veris',
+    logo: '/companies/veris.png',
   },
   {
     id: 4,
-    name: 'Colorbeats',
-    logo: '/companies/colorbeats.png',
+    name: 'Centro de Visión y Róbotica, ESPOL',
+    logo: '/projects/logo-espol.png',
   },
   {
     id: 5,
-    name: 'Koombea',
-    logo: '/companies/koombea.png',
+    name: 'La Fabril',
+    logo: '/companies/logo-lafabril.png',
   },
-  */
+  {
+    id: 6,
+    name: 'GTSI',
+    logo: '/companies/GTSI.png',
+  },
 ];
 
 export default companies;

@@ -44,7 +44,7 @@ const Drawer = ({ isOpen }) => (
         textDecoration: `none`,
       }}
     >
-      <ResponsiveItem>About</ResponsiveItem>
+      <ResponsiveItem>Sobre mí</ResponsiveItem>
     </Link>
     <Link
       to="/contact"
@@ -54,7 +54,7 @@ const Drawer = ({ isOpen }) => (
       }}
     >
       <ResponsiveItem>
-        <DefaultButton value="Get in touch" />
+        <DefaultButton value="Contáctame" />
       </ResponsiveItem>
     </Link>
   </ResponsiveMenu>

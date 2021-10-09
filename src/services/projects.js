@@ -1,97 +1,84 @@
 const projects = [
-  /* {
+  {
     id: 1,
     image: {
-      src: '/projects/horushotel.png',
-      alt: 'Horus Hotel',
+      src: '/projects/logo_biodynamics.svg',
+      alt: 'BioDynamics Tech',
     },
     description: [
-      'Mobile application using Apache Cordova and Laravel.',
-      'Connection to Firebase for push notifications and deployed on Google Cloud.',
+      'Dashboard para monitoreo y gestión de piscinas camaroneras',
+      'Aplicación web con Angular, REST API con Express de NodeJS y aplicación móvil con Ionic.',
     ],
     link: {
-      href: 'https://www.horus-sc.com',
+      href: 'https://biodynamics.tech',
       isDisabled: false,
-      textLink: 'www.horus-sc.com',
+      textLink: 'biodynamics.tech',
     },
   },
   {
     id: 2,
     image: {
-      src: '/projects/shopylive.png',
-      alt: 'Shopylive',
+      src: '/projects/Logo-BPP.png',
+      alt: 'Bosque Protector La Prosperina (BPP)',
     },
     description: [
-      'Mobile application using React Native and NodeJs.',
-      'Sync with Firebase for OAuth and push notifications.',
+      'Plataforma de datos para videojuego e investigación.',
+      'Aplicación web desarrollada en ASP.NET y MongoDB para gestionar datos producidos por el BPP.',
     ],
     link: {
-      href: 'https://www.shopylive.com',
+      href: 'http://www.bosqueprotector.espol.edu.ec/',
       isDisabled: false,
-      textLink: 'www.shopylive.com',
+      textLink: 'www.bosqueprotector.espol.edu.ec',
     },
   },
   {
     id: 3,
     image: {
-      src: '/companies/simple-legal.jpg',
-      alt: 'SimpleLegal',
+      src: '/projects/Logo_MiBosque.png',
+      alt: 'Videojuego Mi Bosque Virtual',
     },
     description: [
-      'Single page application using ReactJS.',
-      'Firebase Kit for Real time database, auth and cloud functions.',
+      'Videojuego educativo para niños, con datos en tiempo real del BPP.',
+      'Consiste en un recorrido virtual en la reserva de Cerro Blanco, este videojuego fue desarrollado en Unity.',
     ],
     link: {
-      href: '',
-      isDisabled: true,
-      textLink: '',
+      href: 'http://www.bosqueprotector.espol.edu.ec/',
+      isDisabled: false,
+      textLink: 'www.bosqueprotector.espol.edu.ec',
     },
   },
   {
     id: 4,
     image: {
-      src: '/companies/ela-sustentable.png',
-      alt: 'Ela Sustentable',
+      src: '/projects/logo_family.png',
+      alt: 'Mi Familia Ecuador',
     },
     description: [
-      'Single page application using ReactJS.',
-      'Django & Django rest framework for Rest API.',
+      'Aplicación web y móvil de ayuda social, donde se brinda contenido de apoyo.',
+      'Desarrollado en Angular, Ionic, Django (Como backend y administrador), MySQL, Paymentez, entre otros.',
     ],
     link: {
-      href: 'https://www.elasustentable.com',
+      href: 'http://mifamilia.ec/',
       isDisabled: false,
-      textLink: 'www.elsasustentable.com',
+      textLink: 'mifamilia.ec',
     },
   },
   {
     id: 5,
     image: {
-      src: '/companies/colorbeats.png',
-      alt: 'Colorbeats',
-    },
-    description: ['E-Commerce webpage using Shopify.'],
-    link: {
-      href: 'https://www.colorbeats.co',
-      isDisabled: false,
-      textLink: 'www.colorbeats.co',
-    },
-  },
-  {
-    id: 6,
-    image: {
-      src: '/companies/powerpay.png',
-      alt: 'Powerpay',
+      src: '/projects/logo-espol.png',
+      alt: 'Sistema de Alerta Temprana (SAT) de Salima',
     },
     description: [
-      'Single page application using ReactJS.',
-      'REST API developed using Ruby on Rails.',
+      'Automatización del flujo de datos del SAT de Salima y aplicación móvil',
+      'Desarrollado en Angular, Ionic, CKAN, PostgreSQL, C, Arduino.',
     ],
     link: {
-      href: 'https://www.getpowerpay.com',
-      isDisabled: false,
-      textLink: 'www.getpowerpay.com',
+      href: 'http://ckan.espol.edu.ec/',
+      isDisabled: true,
+      textLink: 'ckan.espol.edu.ec',
     },
-  }, */
+  },
 ];
 
 export default projects;
