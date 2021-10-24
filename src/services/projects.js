@@ -6,7 +6,7 @@ const projects = [
       alt: 'BioDynamics Tech',
     },
     description: [
-      'Dashboard para monitoreo y gestión de piscinas camaroneras',
+      'Dashboard para monitoreo y gestión de piscinas camaroneras.',
       'Aplicación web con Angular, REST API con Express de NodeJS y aplicación móvil con Ionic.',
     ],
     link: {
@@ -42,7 +42,7 @@ const projects = [
       'Consiste en un recorrido virtual en la reserva de Cerro Blanco, este videojuego fue desarrollado en Unity.',
     ],
     link: {
-      href: 'http://www.bosqueprotector.espol.edu.ec/',
+      href: 'http://www.bosqueprotector.espol.edu.ec/videojuego-mi-bosque/',
       isDisabled: false,
       textLink: 'www.bosqueprotector.espol.edu.ec',
     },
@@ -70,7 +70,7 @@ const projects = [
       alt: 'Sistema de Alerta Temprana (SAT) de Salima',
     },
     description: [
-      'Automatización del flujo de datos del SAT de Salima y aplicación móvil',
+      'Automatización del flujo de datos del SAT de Salima y aplicación móvil.',
       'Desarrollado en Angular, Ionic, CKAN, PostgreSQL, C, Arduino.',
     ],
     link: {

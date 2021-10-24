@@ -23,12 +23,12 @@ const companies = [
     id: 5,
     name: 'La Fabril',
     logo: '/companies/logo-lafabril.png',
-  },
+  } /*
   {
     id: 6,
     name: 'GTSI',
     logo: '/companies/GTSI.png',
-  },
+  }, */,
 ];
 
 export default companies;
